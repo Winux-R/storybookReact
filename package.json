@@ -1,0 +1,22 @@
+{
+  "name": "storebookReact",
+  "version": "1.0.0",
+  "description": "storebookreact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "author": "victorJin",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/react": "^3.4.4",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "save-dev": "^2.0.0"
+  }
+}
